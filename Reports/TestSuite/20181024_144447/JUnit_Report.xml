@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="1" failures="0" errors="0" time="13" timestamp="2018-10-24 14:44:51" hostname="ghgf - 192.168.0.13" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ghgf\\Katalon Studio\\GmailTesting\\Reports\\TestSuite\\20181024_144447"/>
+         <property name="logFiles" value="C:\\Users\\ghgf\\Katalon Studio\\GmailTesting\\Reports\\TestSuite\\20181024_144447\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ghgf - 192.168.0.13"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="sessionId" value="512d42f0ae817869766fb3dc1dbfcba8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/GmailTests" classname="Test Cases/GmailTests" status="PASSED">
+         <system-out><![CDATA[2018-10-24 14:44:52 - [TEST_CASE][PASSED] - Test Cases/GmailTests: Test Cases/GmailTests
+
+2018-10-24 14:44:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-24 14:44:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-24 14:44:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2018-10-24 14:45:01 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2018-10-24 14:45:01 - [TEST_STEP][PASSED] - setText: Text 'qa.gauravsingh01@gmail.com' is set on object 'Object Repository/Page_Gmail/input_Continue to Gmail_identi'
+
+2018-10-24 14:45:01 - [MESSAGE][PASSED] - Text 'qa.gauravsingh01@gmail.com' is set on object 'Object Repository/Page_Gmail/input_Continue to Gmail_identi'
+
+2018-10-24 14:45:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Gmail/Next_Button' is clicked on
+
+2018-10-24 14:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/Next_Button' is clicked on
+
+2018-10-24 14:45:01 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Gmail/input_Too many failed attempts'
+
+2018-10-24 14:45:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Gmail/input_Too many failed attempts'
+
+2018-10-24 14:45:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Gmail/span_Next' is clicked on
+
+2018-10-24 14:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/span_Next' is clicked on
+
+2018-10-24 14:45:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-24 14:45:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-24 14:44:51 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/GmailTests]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
